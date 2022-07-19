@@ -1,0 +1,43 @@
+{% extends 'base.html' %} 
+{% block title %}About{% endblock title %} 
+{%block body %}
+
+<div class="my-2 px-2">
+  <h3 class="font-italic">Text Summarizer</h3>
+  <p>
+    An internet programme called a text summarizer condenses a text to a
+    predetermined short length. It distils a lengthy article down to its
+    essentials. Due to time restrictions, text summarization tools are becoming
+    more and more necessary. People are looking for ways to absorb concepts more
+    quickly. Even text summarization tools are assisting them in determining
+    whether or not to read a book, a research paper, or an article.
+  </p>
+  <hr>
+  <h3 class="font-italic">Types of Text Summarizer</h3>
+  <p>
+    For condensing a lengthy text into a shorter one, there are primarily two
+    methods that have evolved over time.
+  </p>
+  <hr>
+  <div class="my-4 px-4">
+    <h4 class="font-italic">Extraction Summarization</h4>
+    <p>The extractive method is all about selecting the key words and passages from the documents. 
+        The summary is then created by combining all the key lines. 
+        Therefore, in this instance, every word and line of the summary genuinely comes from the source material that is being summarised.
+    </p>
+    <p class="font-italic">Note: Extractive Summarization is used in this website.</p>
+    <hr>
+    <h4 class="font-italic">Abstractive Summarization</h4>
+    <p>The abstractive approach uses deep learning-based summarization. 
+        As a result, while maintaining consistency with the points made in the original document, 
+        it uses new terminology and phrasing. Thus, it is far more difficult than the extractive method.
+    </p>
+
+    <p class="font-italic">
+        Extractive summaries have been found to occasionally perform better than abstractive ones, 
+        likely because they don't need natural language production and semantic representation.
+    </p>
+  </div>
+</div>
+
+{% endblock body %}

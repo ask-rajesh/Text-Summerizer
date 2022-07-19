@@ -6,6 +6,15 @@ A website called a text summarizer convert a long text to a predetermined short 
 - Django framework
 - Python
 - HTML (HyperText Markup Language)
-- CSS (Cascading Style Sheets)
+- Bootstrap CSS (Cascading Style Sheets) framework
+- NLTK (Natural Language Toolkit) library
 
-I am updating it
+
+## Run server
+
+to run the website in local host
+
+```bash
+  python manage.py runserver
+```
+

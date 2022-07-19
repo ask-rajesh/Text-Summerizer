@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-5*l4x_h6%y*4a#5&_+t3*m#&rm%6$ltmzo+&1e-psc_3sei#a*
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','textsummerizer2022.herokuapp.com/']
 
 
 # Application definition

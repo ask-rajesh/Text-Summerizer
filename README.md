@@ -8,3 +8,4 @@ A website called a text summarizer convert a long text to a predetermined short 
 - HTML (HyperText Markup Language)
 - CSS (Cascading Style Sheets)
 
+I am updating it
